@@ -1,0 +1,19 @@
+.footer {
+  background-color: var(--main_color);
+  .form {
+    background: rgba(255, 255, 255, 0.05);
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+    border: 1px solid rgb(136, 167, 177);
+  }
+
+  .message {
+    border: 1px solid rgb(47, 47, 47);
+    width: 70px;
+    border-radius: 10px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

@@ -1,1 +1,87 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import "bootstrap/scss/bootstrap";
+
+/* font family */
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* font-awesome*/
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css");
+:root {
+  --main_color: #010101;
+  --second_color: #91ff00;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Raleway";
+}
+
+.p-100 {
+  padding: 100px 0;
+}
+// .pt-100 {
+//   padding-top: 100% !important;
+// }
+// .pb-100 {
+//   padding-bottom: 100% !important;
+// }
+
+.ycolor {
+  color: #91ff00;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 100px !important;
+}
+h2 {
+  margin: 0;
+  font-size: 42px !important;
+  font-weight: 400;
+}
+
+h5 {
+  letter-spacing: 3px;
+  font-weight: 400;
+  font-size: 22px !important;
+  text-transform: uppercase;
+}
+
+h6 {
+  font-size: 20px !important;
+  font-weight: 500;
+  color: silver !important;
+  letter-spacing: 3px;
+}
+
+p {
+  color: silver;
+  margin: 0;
+}
+.p{
+    color: silver;
+    margin: 0;
+  
+}
+
+
+.butn {
+  background: var(--main_color);
+  color: white;
+  font-weight: 600;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    transform: translateY(-5px);
+    transition: all 0.3s ease-in-out;
+  }
+}
